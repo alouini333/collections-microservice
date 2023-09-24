@@ -3,7 +3,7 @@ import express from 'express'
 import cors from 'cors'
 import { getDbClient } from './getDbClient'
 
-const PORT = 3001
+const PORT = 3003
 const HOST = '0.0.0.0'
 
 const client = getDbClient()
